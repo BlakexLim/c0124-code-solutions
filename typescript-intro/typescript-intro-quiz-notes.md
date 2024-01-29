@@ -5,12 +5,14 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - When was TypeScript introduced?
-
+  October 2012
 - Who created TypeScript?
-
+  Microsoft
 - How can you compile TypeScript to JavaScript?
-
+  By utilizing the tsc (TypeScript compiler)
 - What are some benefits of using TypeScript?
+  It provides tools to write easier to read JavaScript as projects scale up,
+  Helps you catch bugs and errors quicker due to the way it's structured
 
 ## Notes
 
