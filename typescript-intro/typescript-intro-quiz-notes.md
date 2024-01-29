@@ -11,8 +11,7 @@ Answer the following questions in the provided markdown file before turning in t
 - How can you compile TypeScript to JavaScript?
   By utilizing the tsc (TypeScript compiler)
 - What are some benefits of using TypeScript?
-  It provides tools to write easier to read JavaScript as projects scale up,
-  helps you catch bugs and errors quicker due to the way it's structured
+  It provides tools to write easier to read JavaScript as projects scale up and helps you catch bugs and errors quicker due to the way it's structured.
 
 ## Notes
 
