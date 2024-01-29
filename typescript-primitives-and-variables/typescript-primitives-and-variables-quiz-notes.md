@@ -30,7 +30,7 @@ Answer the following questions in the provided markdown file before turning in t
   Undefined is when the variable hasn't been assigned a value.
   Null can be assigned as a value to represent no value.
 - Why is it a good habit to include "labels" when you log values to the browser console?
-  So that it is understood by your peers or anyone you work with or get help from.
+  So that I can identify what variables I am logging to the console
 - Give five examples of JavaScript primitives.
   A string, number, boolean, undefined, and null
 
