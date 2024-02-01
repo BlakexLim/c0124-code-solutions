@@ -61,10 +61,11 @@ function isOldEnoughToDrive(person: Person): boolean {
 }
 console.log(isOldEnoughToDrive(blake));
 
-function isOldEnoughToDrinkAndDrive(person: Person): unknown {
-  if (person) {
+function isOldEnoughToDrinkAndDrive(person: Person): boolean {
+  if (person.age > 16 && person.age > 21) {
     return false;
   }
+  return false;
 }
 console.log(isOldEnoughToDrinkAndDrive(blake));
 
@@ -85,13 +86,10 @@ function introduceWarnerBro(name: string): string {
   switch (name) {
     case 'yakko':
       return `We're the warner brothers!`;
-      break;
     case 'wakko':
       return `We're the warner brothers!`;
-      break;
     case 'dot':
       return `I'm cute~`;
-      break;
     default:
       return 'Goodnight everybody!';
   }

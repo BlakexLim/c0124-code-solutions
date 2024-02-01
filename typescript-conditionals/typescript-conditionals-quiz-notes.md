@@ -17,7 +17,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What are the three logical operators?
   The || OR, $$ AND, and ! NOT operators
 - How do you compare two different expressions in the same condition?
-  By using the switch statement
+  By using the || or && operators
 - What is the purpose of a `switch` statement?
   To evaluate an expression passed into the parenthesis and compares the result to different cases in the code block
 - Is a `default` clause required in order to use a `switch` statement?

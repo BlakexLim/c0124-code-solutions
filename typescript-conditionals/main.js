@@ -54,10 +54,12 @@ function isOldEnoughToDrive(person) {
 }
 console.log(isOldEnoughToDrive(blake));
 function isOldEnoughToDrinkAndDrive(person) {
-  person;
+  if (person.age > 16 && person.age > 21) {
+    return false;
+  }
   return false;
 }
-console.log(isOldEnoughToDrinkAndDrive('blake'));
+console.log(isOldEnoughToDrinkAndDrive(blake));
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
@@ -74,13 +76,10 @@ function introduceWarnerBro(name) {
   switch (name) {
     case 'yakko':
       return `We're the warner brothers!`;
-      break;
     case 'wakko':
       return `We're the warner brothers!`;
-      break;
     case 'dot':
       return `I'm cute~`;
-      break;
     default:
       return 'Goodnight everybody!';
   }
