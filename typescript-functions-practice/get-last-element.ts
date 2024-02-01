@@ -1,4 +1,5 @@
 /* exported getLastElement */
-// function getLastElement(array: string[]): string {
-//   return array.pop()
-// };
+function getLastElement(array: string[]): string {
+  return array[array.length - 1];
+  // return array.pop()
+}
