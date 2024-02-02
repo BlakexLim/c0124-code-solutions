@@ -1,8 +1,8 @@
 /* exported getLastNameOfPerson */
-// const person = {
-//   firstName: 'Blake',
-//   lastName: 'Lim',
-// }
-// function getLastNameOfPerson(person: string): string {
-// return person.lastName;
-// }
+interface Person {
+  firstName: string;
+  lastName: string;
+}
+function getLastNameOfPerson(person: Person): string {
+  return person.lastName;
+}
