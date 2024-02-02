@@ -1,5 +1,6 @@
 'use strict';
 /* exported getLastElement */
-// function getLastElement(array: string[]): string {
-//   return array.pop()
-// };
+function getLastElement(array) {
+  // return array[array.length - 1];
+  return array.pop();
+}
