@@ -100,22 +100,17 @@ function recommendMovie(genre: string): string {
   switch (genre) {
     case 'action':
       return 'Pacific Rim';
-      break;
     case 'comedy':
       return 'Migration';
-      break;
     case 'horror':
       return 'Prometheus';
-      break;
     case 'drama':
       return 'Whiplash';
-      break;
     case 'musical':
       return 'La La Land';
-      break;
+
     case 'sci-fi':
       return 'Star Wars';
-      break;
     default:
       return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, sci-fi';
   }
