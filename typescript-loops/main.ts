@@ -39,7 +39,7 @@ function repeatWord(word: string, times: number): string {
 }
 console.log('repeatWord:', repeatWord('beep', 7));
 
-function logEachCharacter(string: string): undefined {
+function logEachCharacter(string: string): void {
   for (let i = 0; i < string.length; i++) {
     console.log(string[i]);
   }
