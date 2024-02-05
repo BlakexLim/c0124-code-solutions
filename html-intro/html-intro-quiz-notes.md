@@ -17,6 +17,8 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the purpose of HTML attributes?
   To provide extra information about the element.
 - Give an example of an HTML entity (escape character).
+  ampersand (&) followed by a character reference and end with a semicolon escape character(;).
+  '&lt;' for less than '<'
 
 ## Notes
 
