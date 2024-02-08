@@ -1,18 +1,20 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h2 {
   color: red;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div.info {
-  margin: 1rem;
-  justify-content: space-evenly;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-div.info input {
-  width: 80%;
+div {
+  margin: 2rem;
   text-align: center;
+  font-size: small;
+}
+
+input {
+  width: 80%;
   padding: 10px;
   border-radius: 6px;
   border-color: lightgray;
@@ -22,11 +24,14 @@ div.info input {
 button {
   color: white;
   background-color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20rem;
   border: 4rem;
   padding: 8px;
-  text-align: right;
+}
+
+div.submit {
+  text-align: center;
+  margin-left: 60%;
 }
 
 button:hover {
@@ -34,7 +39,6 @@ button:hover {
 }
 
 input::placeholder {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   opacity: 1;
   color: lightgray;
   text-align: left;
@@ -42,9 +46,14 @@ input::placeholder {
 }
 
 select {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: lightgray;
   border-radius: 6px;
   width: 80%;
   padding: 8px;
+}
+
+div.info {
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 6px;
 }
