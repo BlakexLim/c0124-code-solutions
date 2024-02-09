@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  background-color: skyblue;
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2')
+    format('woff2');
+}
+
+div.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+div.column-full {
+  text-align: center;
+  font-size: x-large;
+}
+
+div.column-image {
+  display: flex;
+  justify-content: center;
+}
+
+div.images {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+img.symbol {
+  width: 100%;
+  background-color: white;
+}
+
+div.column-third {
+  color: white;
+  display: flex;
+}
+
+div.body {
+  text-align: center;
+  width: 100%;
+  margin: 2px;
+  padding: 0.5rem;
+  line-height: 150%;
+}
