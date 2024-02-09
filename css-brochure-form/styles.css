@@ -1,0 +1,59 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+div {
+  margin: 2rem;
+  text-align: center;
+  font-size: small;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: lightgray;
+  border-width: thin;
+}
+
+button {
+  color: white;
+  background-color: red;
+  border-radius: 20rem;
+  border: 4rem;
+  padding: 8px;
+}
+
+div.submit {
+  text-align: center;
+  margin-left: 60%;
+}
+
+button:hover {
+  background-color: lightcoral;
+}
+
+input::placeholder {
+  opacity: 1;
+  color: lightgray;
+  text-align: left;
+  padding: 1rem 2px;
+}
+
+select {
+  background-color: lightgray;
+  border-radius: 6px;
+  width: 80%;
+  padding: 8px;
+}
+
+div.info {
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 6px;
+}
