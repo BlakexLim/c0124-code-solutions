@@ -1,12 +1,9 @@
-.column-header {
-  display: flex;
-  position: sticky;
-  top: auto;
-}
-
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 div.row {
@@ -58,7 +55,7 @@ button:hover {
   color: white;
 }
 
-.action {
+.get-started {
   background-color: navy;
   color: white;
   border-radius: 4px;
@@ -81,10 +78,10 @@ button:hover {
   bottom: 0;
   left: 0;
   right: 0;
+  filter: contrast(70%);
 }
 
 .column-center {
-  background-color: rgba(211, 211, 211, 0.089);
   color: gray;
   display: flex;
   align-items: center;
@@ -92,8 +89,60 @@ button:hover {
   margin: 4rem;
 }
 
-div.row-3 {
-  display: flex;
+.clinicians-pref {
+  text-align: center;
+}
+
+div.row.locations {
+  justify-content: center;
+  color: gray;
+  background-color: rgba(211, 211, 211, 0.176);
+}
+
+.location {
   text-align: center;
   color: gray;
+}
+
+.column-bottom {
+  width: 50%;
+}
+
+.learn-more {
+  color: gray;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.start {
+  margin-left: 70%;
+  background-color: navy;
+  color: white;
+  border-radius: 4px;
+}
+
+.footer {
+  background-color: gray;
+  justify-content: space-evenly;
+}
+
+.column-foot {
+  justify-content: space-evenly;
+  display: flex;
+  text-align: center;
+}
+
+.contact {
+  margin-right: 40%;
+  color: white;
+}
+
+div.company-links {
+  color: white;
+  margin-right: 10%;
+}
+
+div.product-links {
+  color: white;
 }
