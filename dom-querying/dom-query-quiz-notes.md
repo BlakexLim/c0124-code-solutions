@@ -15,9 +15,9 @@ Answer the following questions in the provided markdown file before turning in t
 - What is a DOM Tree?
   A representation of HTML as a tree structure of tags
 - Give two examples of `document` methods that retrieve a single element from the DOM.
-  getElementsById(), activeElement()
+  getElementsById(), document.querySelector()
 - Give one example of a `document` method that retrieves multiple elements from the DOM at once.
-  cookie
+  document.querySelectorAll()
 - Why might you want to assign the return value of a DOM query to a variable?
   Querying the DOM takes an eternity, so it's good practice to store the value in a variable to make it reuseable
 - What `console` method allows you to inspect the properties of a DOM element object?
