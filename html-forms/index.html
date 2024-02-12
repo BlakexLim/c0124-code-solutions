@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Coding Form!</h1>
+    <form action="/my-handling-form-page" method="post">
+      <fieldset>
+        <legend>Fill-in Information</legend>
+
+        <p>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" />
+        </p>
+        <p>
+          <label for="dropdown">Why is coding cool?</label>
+        </p>
+        <p>
+          <select id="dropdown">
+            <option>Select an option</option>
+            <option>Because it's fun</option>
+            <option>Because it's powerful</option>
+            <option>Because it's interesting</option>
+          </select>
+        </p>
+        <p>
+          <label for="favoritelang">Favorite Language (choose one)</label>
+        </p>
+        <p>
+          <label for="HTML">HTML</label>
+          <input type="radio" id="HTML" name="user_favoritelanguage" />
+
+          <label for="CSS">CSS</label>
+          <input type="radio" id="CSS" name="user_favoritelanguage" />
+
+          <label for="JavaScript">JavaScript</label>
+          <input type="radio" id="JavaScript" name="user_favoritelanguage" />
+        </p>
+        <label for="question"
+          >Would you like to sign up for more information?</label
+        >
+        <p>
+          <input type="checkbox" id="question" name="signup" value="yes" />
+          <label>Sign me up!</label>
+        </p>
+        <p><textarea cols="30" rows="8"></textarea></p>
+        <p><button type="submit">Submit</button></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
