@@ -7,7 +7,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the `event.target`?
   The element responsible for starting the event
 - Why is it possible to listen for events on one element that actually happen its descendent elements?
-
+  because of bubbling
 - What DOM element property tells you what type of element it is?
   tagName
 - What does the `element.closest()` method take as its argument and what does it return?
