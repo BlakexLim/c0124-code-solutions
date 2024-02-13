@@ -1,11 +1,14 @@
 /* exported take */
-function take(array: unknown[], count: number): unknown {
-  let result;
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === count) {
-      const newArr = array[i];
-      result = newArr;
-    }
+
+// we are creating a function that takes 2 parameters, an array and a count
+// we want to return an array of counts
+function take(array: unknown[], count: number): unknown[] {
+  const result = [];
+  if (array.length === 0) {
+    return array;
+  }
+  for (let i = 0; i < count; i++) {
+    result.push(array[i]);
   }
   return result;
 }
