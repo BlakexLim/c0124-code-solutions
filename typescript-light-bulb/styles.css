@@ -1,0 +1,30 @@
+.bulb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  border-radius: 50%;
+  padding: 10%;
+  border: none;
+}
+
+.light-mode {
+  background-color: rgb(255, 255, 255);
+}
+
+.light-mode > button {
+  background-color: rgb(253, 236, 0);
+  box-shadow: 2px 2px 2px 2px rgb(243, 243, 165);
+}
+
+.dark-mode {
+  background-color: rgb(26, 26, 26);
+}
+
+.dark-mode > button {
+  background-color: rgb(43, 41, 41);
+  box-shadow: -2px -2px 2px 2px rgb(0, 0, 0);
+}
