@@ -5,9 +5,9 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What event is fired when a user places their cursor in a form control?
-
+  focus event
 - What event is fired when a user's cursor leaves a form control?
-
+  blur event
 - What event is fired as a user changes the value of a form control?
 
 - What event is fired when a user clicks the `"submit"` button within a `<form>`?
@@ -15,7 +15,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What does the `event.preventDefault()` method do?
 
 - What does submitting a form without `event.preventDefault()` do?
-
+  refresh the page
 - What property of a form element object contains all of the form's controls.
 
 - What property of a form control object gets and sets its value?
