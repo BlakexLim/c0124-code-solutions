@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
