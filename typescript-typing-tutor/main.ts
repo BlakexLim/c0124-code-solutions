@@ -1,13 +1,15 @@
 // query the DOM for ALL span elements and assign to variable
-// const $characters = document.querySelectorAll('span');
-// if (!$characters) throw new Error('$characters query failed');
+const $characters = document.querySelectorAll('span');
 
-// document.addEventListener('keydown', (event: KeyboardEvent) => {
-//   for (let i = 0; i < $characters.length; i++) {
-//     if (event.key === KeyboardEvent) {
-//     $characters[i].className = 'correct';
-//   } else {
-//     $characters[i].className = 'wrong';
-//   }
-// }
-// });
+if (!$characters) throw new Error('$characters query failed');
+
+document.addEventListener('keydown', (event: KeyboardEvent) => {
+  for (let i = 0; i < $characters.length; i++) {
+    if (event.key === $characters[i].textContent) {
+      $characters[i].className = 'correct';
+      return;
+    } else {
+      $characters[i].className = 'wrong';
+    }
+  }
+});
