@@ -1,7 +1,7 @@
 'use strict';
 /* exported takeRight */
 function takeRight(array, count) {
-  let result = [];
+  const result = [];
   if (array.length < count) {
     return array;
   }
