@@ -6,5 +6,8 @@ function truncate(length: number, string: string): string {
       result = result + string[i];
     }
   }
+  if (length > string.length) {
+    result = string;
+  }
   return result + '...';
 }

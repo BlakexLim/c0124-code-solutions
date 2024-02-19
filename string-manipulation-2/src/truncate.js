@@ -7,5 +7,8 @@ function truncate(length, string) {
       result = result + string[i];
     }
   }
+  if (length > string.length) {
+    result = string;
+  }
   return result + '...';
 }
