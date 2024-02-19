@@ -14,3 +14,7 @@ body {
 .wrong {
   color: red;
 }
+
+.next {
+  text-decoration: underline;
+}
