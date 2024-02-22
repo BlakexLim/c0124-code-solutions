@@ -8,3 +8,4 @@ function capitalizeWords(word: string): string {
   return result;
 }
 console.log(capitalizeWords('bEEp'));
+console.log(capitalizeWords('piNEapple'));
