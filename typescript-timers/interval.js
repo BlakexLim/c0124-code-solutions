@@ -8,7 +8,8 @@ function countDownInterval() {
     $countDown.textContent = String(count);
   } else if (count === 0) {
     $countDown.textContent = '~Earth Beeeelooowww Us';
+    clearInterval(intervalId);
   }
-  return count--;
+  count--;
 }
-setInterval(countDownInterval, 1000);
+const intervalId = setInterval(countDownInterval, 1000);
