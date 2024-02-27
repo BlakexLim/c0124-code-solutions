@@ -10,8 +10,8 @@ const v5 = {
     age: 82,
   },
 };
-console.log(v1 && true, 'v1 is truthy');
-console.log(v2 && true, 'v2 is truthy');
+v1 && console.log('v1 is truthy');
+v2 && console.log('v2 is truthy');
 const config1 = v1 || 'default-value';
 const config2 = v2 || 'default-value';
 console.log('configs', config1, config2);
