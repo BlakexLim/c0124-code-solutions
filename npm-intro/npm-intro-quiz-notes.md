@@ -7,7 +7,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is NPM?
   The world's largest software registry
 - What is a package?
-
+  a file with data and dependencies
 - What are some other popular package managers?
   NPM, Yarn, PNPM
 - How can you create a `package.json` with `npm`?
