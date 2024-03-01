@@ -9,7 +9,7 @@ async function pokeApi(): Promise<void> {
   const response = await fetch('https://pokeapi.co/api/v2/pokemon/tyranitar');
   try {
     if (!response.ok) {
-      throw new Error('Could not fetch data');
+      throw new Error(`${response.status} Could not fetch data`);
     }
     const favPokemon = await response.json();
     console.log(favPokemon);
