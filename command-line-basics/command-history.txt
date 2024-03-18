@@ -1,0 +1,92 @@
+    1  git status
+    2  git switch typescript-functions-practice 
+    3  git switch main
+    4  git branch command-line-basics
+    5  git switch command-line-basics 
+    6  cd command-line-basics/
+    7  man man
+    8  man cat
+    9  cat print laziness.txt, impatience.txt , hubris.txt 
+   10  cat laziness.txt , impatience.txt , hubris.txt 
+   11  cat laziness.txt impatience.txt  hubris.txt 
+   12  man cat
+   13  cat laziness.txt 
+   14  cat impatience.txt 
+   15  cat hubris.txt 
+   16  cat laziness.txt impatience.txt hubris.txt 
+   17  cat laziness.txt impatience.txt hubris.txt > three-virues.txt
+   18  cat three-virues.txt 
+   19  man ls
+   20  man ls
+   21  cd command-line-basics/
+   22  man ls
+   23  ls 
+   24  ls -a
+   25  ls -f
+   26  ls lfz-staff/
+   27  ls lfz-staff/ -a
+   28  ls lfz-staff/ -f
+   29  ls lfz-staff/ -F
+   30  ls -aF lfz-staff/ > lfz-staff/contents.txt
+   31  cat lfz-staff/contents.txt 
+   32  man pwd
+   33  pwd command-line-basics
+   34  pwd > i-was-here.txt
+   35  ls command-line-basics
+   36  ls -aF command-line-basics
+   37  ls command-line-basics -a
+   38  ls pwd command-line-basics
+   39  man ls
+   40  ls command-line-basics -d
+   41  ls -d
+   42  man pwd
+   43  pwd
+   44  ls pwd 
+   45  pwd ls
+   46  pwd ls 
+   47  cat i-was-here.txt 
+   48  man echo
+   49  echo 'Hello, World!'
+   50  echo 'Hello, World!' > hello.txt
+   51  ls
+   52  cat hello.txt 
+   53  man touch
+   54  touch tag-youre-it.txt
+   55  touch snoot/boop.txt
+   56  ls snoot/
+   57  man touch
+   58  man mkdir
+   59  mkdir parent
+   60  ls parent/
+   61  mkdir -p child/grandchild
+   62  mkdir -p parent/child/grandchild
+   63  man touch
+   64  touch parent/child/grandchild/ .gitkeep
+   65  touch .gitkeep parent/child/grandchild/
+   66  touch .gitkeep
+   67  man touch
+   68  man mkdir
+   69  man touch
+   70  ls -a
+   71  man mv
+   72  man mv
+   73  mv pokiemans/
+   74  mv pokiemans/ pokemon
+   75  ls 
+   76  man rm
+   77  rm lol.txt 
+   78  ls 
+   79  rm -r kill-me/
+   80  ls 
+   81  man ls
+   82  ls -aF
+   83  ls -a
+   84  man cp
+   85  cp and-then.txt  no-and-then.txt
+   86  ls
+   87  cat and-then.txt 
+   88  cat no-and-then.txt 
+   89  man history
+   90  history 
+   91  history command-history.txt
+   92  history > command-history.txt
