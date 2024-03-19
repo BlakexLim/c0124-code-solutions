@@ -13,10 +13,12 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the purpose of state in React?
   To tell React what data controls the output of a component and needs to be saved between re-renders.
 - Why can't we just maintain state in a local variable?
-  React does not persist local variables
+  Local variables don't persist between re-renders
 - What two actions happen when you call a `state setter` function?
-
+  Current state value is updated and component re-renders the next state value
 - When does the local `state variable` get updated with the new value?
+  Before state change.
+  Changes are shown on page after re-rendering.
 
 ## Notes
 
