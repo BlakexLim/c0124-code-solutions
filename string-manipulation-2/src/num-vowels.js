@@ -1,18 +1,14 @@
 'use strict';
 /* exported numVowels */
 function numVowels(string) {
-  let vowelsCount = 0;
+  string = string.toLowerCase();
+  let count = 0;
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
   for (let i = 0; i < string.length; i++) {
-    if (
-      string.charAt(i) == 'a' ||
-      string.charAt(i) == 'e' ||
-      string.charAt(i) == 'i' ||
-      string.charAt(i) == 'o' ||
-      string.charAt(i) == 'u'
-    ) {
-      vowelsCount += 1;
+    if (vowels.includes(string[i])) {
+      count++;
     }
   }
-  return vowelsCount;
+  return count;
 }
-console.log(numVowels('All Code All Day'));
+console.log(numVowels('Angular'));

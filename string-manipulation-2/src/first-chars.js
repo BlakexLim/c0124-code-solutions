@@ -7,3 +7,4 @@ function firstChars(length, string) {
   }
   return stringChars;
 }
+console.log(firstChars(8, 'All Code All Day'));
