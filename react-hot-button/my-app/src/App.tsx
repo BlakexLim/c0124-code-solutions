@@ -1,5 +1,5 @@
 import './App.css';
-import { HotButton } from './button';
+import { HotButton } from './HotButton';
 
 const btnTxt = 'Hot Button';
 function App() {

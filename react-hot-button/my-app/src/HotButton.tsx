@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './button.css';
+import './HotButton.css';
 
 type Props = {
   label: string;
