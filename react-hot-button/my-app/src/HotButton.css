@@ -1,0 +1,24 @@
+.blue {
+  background-color: rgb(4, 3, 63);
+}
+
+.purple {
+  background-color: rgb(73, 73, 151);
+}
+
+.red {
+  background-color: rgb(192, 77, 77);
+}
+
+.orange {
+  background-color: rgb(182, 112, 55);
+}
+
+.yellow {
+  background-color: rgb(255, 230, 0);
+}
+
+.white {
+  color: rgb(82, 82, 82);
+  background-color: rgb(255, 255, 255);
+}
