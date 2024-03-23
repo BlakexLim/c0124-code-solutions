@@ -1,0 +1,15 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.prev,
+.next {
+  display: flex;
+  justify-content: center;
+}
+
+.num {
+  display: flex;
+  justify-content: center;
+}
