@@ -1,7 +1,11 @@
-export function Prev() {
+type Prop = {
+  onPrev: () => void;
+};
+
+export function Prev({ onPrev }: Prop) {
   return (
     <div className="prev">
-      <button>Prev</button>
+      <button onClick={onPrev}>Prev</button>
     </div>
   );
 }

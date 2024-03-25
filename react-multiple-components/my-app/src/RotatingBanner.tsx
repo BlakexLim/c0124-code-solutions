@@ -10,14 +10,17 @@ type Prop = {
 };
 
 export function RotatingBanner({ items }: Prop) {
-  const [index, nextIndex] = useState(0);
-  nextIndex(index);
+  const [index, setIndex] = useState(0);
   return (
     <div>
       <Banner item={items[index]} />
-      <Prev />
-      <NumberedButtons count={items.length} current={index} />
-      <Next />
+      <Prev onPrev={() => setIndex(index - (1 % items.length))} />
+      <NumberedButtons
+        count={items.length}
+        current={index}
+        onSelect={(index) => setIndex(index)}
+      />
+      <Next onNext={() => setIndex(index + (1 % items.length))} />
     </div>
   );
 }

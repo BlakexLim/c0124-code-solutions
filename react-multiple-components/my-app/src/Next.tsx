@@ -1,7 +1,11 @@
-export function Next() {
+type Prop = {
+  onNext: () => void;
+};
+
+export function Next({ onNext }: Prop) {
   return (
     <div className="next">
-      <button>Next</button>
+      <button onClick={onNext}>Next</button>
     </div>
   );
 }
