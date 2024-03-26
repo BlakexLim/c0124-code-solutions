@@ -1,6 +1,6 @@
 import { FaPlay, FaPause } from 'react-icons/fa';
 import { useState } from 'react';
-import './stopwatch.css';
+import './StopWatch.css';
 
 export function StopWatch() {
   const [count, setCount] = useState(0);
