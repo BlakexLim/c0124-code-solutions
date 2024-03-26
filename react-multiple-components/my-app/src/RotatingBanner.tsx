@@ -14,13 +14,15 @@ export function RotatingBanner({ items }: Prop) {
   return (
     <div>
       <Banner item={items[index]} />
-      <Prev onPrev={() => setIndex(index - (1 % items.length))} />
+      <Prev
+        onPrev={() => setIndex((index - 1 + items.length) % items.length)}
+      />
       <NumberedButtons
         count={items.length}
         current={index}
-        onSelect={(index) => setIndex(index)}
+        onSelect={(item) => setIndex(item)}
       />
-      <Next onNext={() => setIndex(index + (1 % items.length))} />
+      <Next onNext={() => setIndex((index + 1) % items.length)} />
     </div>
   );
 }
