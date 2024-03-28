@@ -1,0 +1,20 @@
+.product {
+  display: block;
+  cursor: pointer;
+}
+
+.image {
+  height: 300px;
+  object-fit: contain;
+}
+
+.description {
+  height: 4.5rem;
+  overflow: hidden;
+}
+
+.catalog-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}

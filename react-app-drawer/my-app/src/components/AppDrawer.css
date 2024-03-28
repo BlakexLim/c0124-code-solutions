@@ -1,0 +1,38 @@
+.drawer-open {
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  box-shadow: 2px 2px lightgray;
+  transition: all 0.5s ease-in-out;
+}
+
+.drawer-closed {
+  transform: translate(0);
+  width: 2rem;
+  transition: all 0.3s ease-out;
+}
+
+.icons {
+  height: 1rem;
+  width: 1rem;
+}
+
+.bar-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.bar-icon:hover {
+  background-color: lightgray;
+}
+
+.title {
+  color: black;
+  padding: 4px;
+}
+
+.title:hover {
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+}
