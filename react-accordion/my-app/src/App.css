@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div {
+  max-width: 18rem;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border-color: black;
+  width: 18rem;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+p {
+  margin: 0;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  width: 17rem;
+}
+
+.hidden {
+  display: none;
+}
