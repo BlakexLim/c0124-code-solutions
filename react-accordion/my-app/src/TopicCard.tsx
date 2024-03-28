@@ -1,13 +1,9 @@
-type TopicCard = {
-  id: number;
-  title: string;
-  content: string;
-};
+import { type TopicProp } from './AccordionWrap';
 
 type Props = {
-  item: TopicCard;
-  isOpen: boolean;
+  item: TopicProp;
   onNext: () => void;
+  isOpen: boolean;
 };
 
 export function TopicCard({ item, onNext, isOpen }: Props) {

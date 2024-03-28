@@ -2,7 +2,7 @@ import { TopicCard } from './TopicCard';
 import './App';
 import { useState } from 'react';
 
-type TopicProp = {
+export type TopicProp = {
   id: number;
   title: string;
   content: string;
