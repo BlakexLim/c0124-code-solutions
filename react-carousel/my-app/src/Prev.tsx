@@ -6,7 +6,7 @@ type PrevProp = {
 export function Prev({ onPrev }: PrevProp) {
   return (
     <div className="Prev column-half">
-      <FaChevronLeft onClick={onPrev} />
+      <FaChevronLeft onClick={onPrev} className="previous-image" />
     </div>
   );
 }

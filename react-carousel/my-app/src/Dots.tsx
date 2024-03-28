@@ -14,9 +14,10 @@ export function Dots({ count, current, onSelect }: DotProps) {
         key={i}
         onClick={() => onSelect(i)}
         style={{ backgroundColor: i === current ? 'lightgray' : undefined }}
+        className="progress-dot"
       />
     );
   }
 
-  return <div>{charList}</div>;
+  return <div className="progress-dots">{charList}</div>;
 }

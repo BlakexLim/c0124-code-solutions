@@ -5,8 +5,8 @@ type ImgProp = {
 
 export function ImgCard({ src, alt }: ImgProp) {
   return (
-    <div>
-      <img src={src} alt={alt}></img>
+    <div className="image-wrapper">
+      <img src={src} alt={alt} className="current-image"></img>
     </div>
   );
 }

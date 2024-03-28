@@ -6,7 +6,7 @@ type NextProp = {
 export function Next({ onNext }: NextProp) {
   return (
     <div className="Next column-half">
-      <FaChevronRight onClick={onNext} />
+      <FaChevronRight onClick={onNext} className="next-image" />
     </div>
   );
 }
