@@ -8,9 +8,12 @@
 }
 
 .about .text {
-  margin: auto;
-  padding-top: 10%;
+  padding: 2rem;
+  margin: 1rem auto;
   width: 50%;
   text-align: center;
-  font-size: xx-large;
+  background-color: rgba(58, 57, 57, 0.123);
+  border-style: groove;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 2rem;
 }

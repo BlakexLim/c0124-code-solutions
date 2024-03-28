@@ -11,38 +11,30 @@ export type MenuItem = {
 
 type Props = {
   menuItems: MenuItem[];
+  header: string;
 };
-export function AppDrawer({ menuItems }: Props) {
-  const [onOpen, setOnOpen] = useState(false);
-  function handleOpen(): void {
-    if (onOpen === false) {
-      setOnOpen(true);
-    } else {
-      setOnOpen(false);
-    }
-  }
+export function AppDrawer({ menuItems, header }: Props) {
+  const [open, setOpen] = useState(false);
 
   return (
-    <div className="d-flex flex-column vw-100">
-      <nav className={onOpen ? ' drawer-open' : ' drawer-closed'}>
-        <div className="navbar-collapse">
-          <ul className="navbar-nav mr-auto">
-            <div>
-              <FaBars onClick={handleOpen} className="bar-icon" />
-              {onOpen && <h2>Hylian Shopping</h2>}
-            </div>
-            {menuItems.map((menu) => (
-              <li key={menu.name} className="nav-item nav-link">
-                <Link to={menu.path} className="title">
-                  <img src={menu.iconUrl} className="icons" />
-                  {onOpen && menu.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-      <Outlet />
+    <div className="app-drawer">
+      <div className={`menu-drawer ${open ? 'is-open' : ''}`}>
+        <FaBars onClick={() => setOpen(!open)} className="menu-icon" />
+        {open && <h2 className="menu-heading">{header}</h2>}
+        <ul className="menu-items">
+          {menuItems.map((menu) => (
+            <li key={menu.name} className="menu-item">
+              <Link to={menu.path} className="menu-link">
+                <img src={menu.iconUrl} className="item-icon" />
+                {open && menu.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="outlet">
+        <Outlet />
+      </div>
     </div>
   );
 }
