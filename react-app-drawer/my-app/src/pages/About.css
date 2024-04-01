@@ -1,0 +1,19 @@
+.about {
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: url('/hylian-emblem.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about .text {
+  padding: 2rem;
+  margin: 1rem auto;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(58, 57, 57, 0.123);
+  border-style: groove;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 2rem;
+}
