@@ -19,9 +19,9 @@ Answer the following questions in the provided markdown file before turning in t
 - What are four comparison operators that can be used in a `where` clause?
   <, >, !=, =
 - How do you limit the number of rows returned in a result set?
-  Adding the `limit` clause at the end
+  Adding the `limit` clause at the end.
 - How do you retrieve all columns from a database table?
-  By typing an \* asterisk
+  By typing an \* asterisk.
 - How do you control the sort order of a result set?
   Data can be sorted by utilizing the `order by` clause after the `from` clause.
 
