@@ -3,7 +3,7 @@ import { ImgCard } from './ImgCard';
 import { Prev } from './Prev';
 import { Next } from './Next';
 import { Dots } from './Dots';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 type ImgProp = {
   src: string;
@@ -20,9 +20,10 @@ export function Carousel({ details }: Prop) {
     setCycle((cycle - 1 + details.length) % details.length);
   }
 
-  function handleNext(): void {
-    setCycle((cycle + 1) % details.length), [details.length, cycle];
-  }
+  const handleNext = useCallback(
+    () => setCycle((cycle + 1) % details.length),
+    [details.length, cycle]
+  );
 
   useEffect(() => {
     const intervalId = setInterval(handleNext, 1000);
