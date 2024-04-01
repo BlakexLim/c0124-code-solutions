@@ -1,0 +1,51 @@
+.carousel {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 0.25rem solid;
+}
+
+.image-wrapper {
+  position: relative;
+  height: 300px;
+}
+
+.current-image {
+  width: 100%;
+  height: calc(100% - 2rem);
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.progress-dots {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-dot {
+  margin: 0 0.25rem;
+}
+
+.progress-dot,
+.previous-image,
+.next-image {
+  cursor: pointer;
+}
+
+.previous-image,
+.next-image {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous-image {
+  left: calc(2rem);
+}
+
+.next-image {
+  right: calc(2rem);
+}
