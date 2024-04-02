@@ -11,4 +11,3 @@ function numVowels(string) {
   }
   return count;
 }
-console.log(numVowels('Angular'));

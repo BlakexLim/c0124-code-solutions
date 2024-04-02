@@ -1,10 +1,9 @@
 'use strict';
 /* exported firstChars */
 function firstChars(length, string) {
-  let stringChars = '';
-  for (let i = length; i < string.length; i++) {
-    stringChars = string;
+  let result = '';
+  for (let i = 0; i < length && i < string.length; i++) {
+    result += string[i];
   }
-  return stringChars;
+  return result;
 }
-console.log(firstChars(8, 'All Code All Day'));
