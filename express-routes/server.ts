@@ -14,22 +14,22 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(8080, () => {
-  console.log('Express server listening on port 8080');
-});
-
 app.get('/', (req, res) => {
-  res.send('Index');
+  res.send('Pineapple');
 });
 
 app.get('/notes', (req, res) => {
-  res.send('notes');
+  res.send('Banana');
 });
 
 app.post('/notes/123', (req, res) => {
-  res.send('notes 123');
+  res.send('Strawberry');
 });
 
 app.use((req, res) => {
-  res.status(404).send("Sorry, can't find that!");
+  res.status(404).send('Not a fruit');
+});
+
+app.listen(8080, () => {
+  console.log('Express server listening on port 8080');
 });
