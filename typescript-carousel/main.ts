@@ -48,6 +48,7 @@ function carousel(): void {
       $circle[i].className = 'fa-regular fa-circle';
     }
   }
+  clearInterval(intervalId);
 }
 
 function reversCarousel(): void {
@@ -61,6 +62,7 @@ function reversCarousel(): void {
       $circle[i].className = 'fa-regular fa-circle';
     }
   }
+  clearInterval(intervalId);
 }
 
 // right chevron click event listener to cycle forward
