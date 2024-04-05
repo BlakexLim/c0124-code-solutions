@@ -15,7 +15,10 @@ Answer the following questions in the provided markdown file before turning in t
 
 All student notes should be written here.
 
-How to write `Code Examples` in markdown
+- why do we put it into the body instead of URL?
+  Body is encrypted when transferring, whereas in the url, it's available to the world.
+  convention
+  How to write `Code Examples` in markdown
 
 for JS:
 
