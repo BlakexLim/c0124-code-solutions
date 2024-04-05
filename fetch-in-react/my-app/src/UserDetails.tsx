@@ -16,7 +16,7 @@ export function UserDetails({ userId, onCancel }: Props) {
     fetchUser(userId);
   }, [userId]);
 
-  async function fetchUser(userId) {
+  async function fetchUser(userId: number) {
     try {
       const res = await fetch(
         `https://jsonplaceholder.typicode.com/users/${userId}`
