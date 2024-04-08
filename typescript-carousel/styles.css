@@ -1,0 +1,29 @@
+.row,
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column-third {
+  display: flex;
+  max-width: calc(100% / 3);
+}
+
+.column-full {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+img {
+  width: 100%;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
