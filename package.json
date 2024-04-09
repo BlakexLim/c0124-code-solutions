@@ -29,6 +29,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "package.json": "^2.0.1",
     "pseudo": "^0.1.0",
     "tsx": "^4.7.1"
   }

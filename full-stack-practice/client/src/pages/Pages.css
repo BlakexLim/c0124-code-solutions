@@ -1,0 +1,94 @@
+.container {
+  padding: 0.5rem;
+}
+
+.page-title {
+  display: grid;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.page-content {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.link-to-index {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.link-to-index:hover {
+  text-decoration: underline;
+}
+
+/* Catalog CSS */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(100% / 3);
+  border: lightgray solid;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 2px gray;
+}
+
+.card-img {
+  height: 14rem;
+  width: 14rem;
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+.product-card {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+}
+
+.card-price {
+  color: lightgray;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+/* Details CSS */
+.product-container {
+  padding: 1rem;
+}
+
+.back-btn {
+  margin: 1rem;
+  text-decoration: none;
+  color: lightslategrey;
+}
+
+.p-row {
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.image {
+  height: 25rem;
+  width: 25rem;
+  object-fit: contain;
+  padding: 1rem;
+}
+
+/* NotFound CSS */
+.not-found {
+  text-decoration: none;
+  color: whitesmoke;
+}
