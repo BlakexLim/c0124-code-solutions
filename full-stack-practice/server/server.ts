@@ -45,7 +45,7 @@ app.get('/api/products/:productId', async (req, res, next) => {
     const sql = `
       select *
         from "products"
-        where "productId = $1;
+        where "productId" = $1;
         `;
     const params = [productId];
     const result = await db.query(sql, params);

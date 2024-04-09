@@ -1,9 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { AiFillCaretLeft } from 'react-icons/ai';
 import { useEffect, useState } from 'react';
-import { toDollars, type Product } from '../lib';
-// import { readProduct } from '../lib';
-// import { NotFound } from './NotFound';
+import { toDollars } from '../lib';
 
 export function Details() {
   const { productId } = useParams();
@@ -22,7 +20,6 @@ export function Details() {
     async function loadProduct(productId: number) {
       try {
         const res = await fetch(`/api/products/${productId}`);
-        console.log(res);
         if (!res.ok) throw new Error(`Response Error, status ${res.status}`);
         const result = await res.json();
         setProduct(result);

@@ -1,7 +1,5 @@
 import './Pages.css';
-import { type Product } from '../lib';
 import { useEffect, useState } from 'react';
-// import { readCatalog } from '../lib';
 import { Link } from 'react-router-dom';
 import { toDollars } from '../lib';
 
