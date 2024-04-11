@@ -42,7 +42,8 @@ app.post(
           returning *;
           `;
       const params = [caption, url];
-      const result = db.query(sql, params);
+      const result = await db.query(sql, params);
+      res.status(201).json(result.rows[0]);
       if (!result)
         throw new ClientError(
           400,

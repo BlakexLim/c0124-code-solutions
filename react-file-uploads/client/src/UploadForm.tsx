@@ -9,7 +9,6 @@ type Image = {
 
 export function UploadForm() {
   const [image, setImage] = useState<Image>();
-  const [url, setUrl] = useState();
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     try {
@@ -25,7 +24,6 @@ export function UploadForm() {
     } catch (err) {
       console.error('Something went wrong:', err);
     }
-    setUrl(url);
     /* Prevent the browser's default behavior for form submissions.
      * Create a `new` FormData object from the `event`.
      *
@@ -60,7 +58,7 @@ export function UploadForm() {
           accept=".png, .jpg, .jpeg, .gif"
         />
         <button type="submit">Upload</button>
-        <img src={url ? `${image}` : undefined} />
+        {image && <img src={image?.url} alt={image.caption} />}
       </form>
     </div>
   );
